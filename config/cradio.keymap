@@ -30,6 +30,44 @@
             then-layer = <3>;
         };
     };
+        { 
+            combo_esc {
+                compatible = "zmk,combos";
+                combo_esc {
+                    timeout-ms = <50>;
+                    key-positions = <0 31>;
+                    bindings = <&kp ESC>;
+                };
+            };
+        
+            combo_bslh {
+                compatible = "zmk,combos";
+                combo_esc {
+                    timeout-ms = <50>;
+                    key-positions <29 32>;
+                    bindings = <&kp BSLH>;
+                };
+            };
+
+            combo_btick {
+                compatible = "zmk,combos";
+                combo_esc {
+                    timeout-ms = <50>;
+                    key-positions <20 31>;
+                    bindings = <&kp GRAVE>;
+                };
+            };
+
+            combo_quot {
+                compatible = "zmk,combos";
+                combo_esc {
+                    timeout-ms = <50>;
+                    key-positions <19 32>;
+                    bindings = <&kp GRAVE>;
+                };
+            };
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
