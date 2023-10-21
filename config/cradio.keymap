@@ -60,7 +60,7 @@
             &kp DLLR  &kp PLUS   &kp LPAR   &kp RPAR   &kp AT         &kp PIPE   &kp MINUS  &kp EQUAL  &kp UNDER  &kp STAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  #       │  [       │  ]       │  ~       │   │  &       │  {       │  }       │  %       │  ^       │
-           &kp EXCL   &kp HASH   &kp LBKT   &kp RBKT   &kp TILDE      &kp AMPS   &kp LBRC   &kp RBRC   &kc PRCNT  &kp CARET
+           &kp EXCL   &kp HASH   &kp LBKT   &kp RBKT   &kp TILDE      &kp AMPS   &kp LBRC   &kp RBRC   &kp PRCNT  &kp CARET
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &tras          &trans     &kp ESC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
