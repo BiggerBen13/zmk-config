@@ -58,6 +58,12 @@
             bindings = <&kp SQT>;
         };
 
+        combo_at {
+            timeout-ms = <50>;
+            key-positions = <10 13>;
+            bindings = <&kp AT>
+        }
+
     };
 
     keymap {
