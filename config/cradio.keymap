@@ -17,7 +17,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <75>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
@@ -59,7 +59,7 @@
         };
 
         combo_at {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             key-positions = <10 13>;
             bindings = <&kp AT>;
         };
