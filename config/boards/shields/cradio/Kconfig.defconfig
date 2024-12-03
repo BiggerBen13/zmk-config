@@ -16,6 +16,4 @@ if SHIELD_CRADIO_LEFT || SHIELD_CRADIO_RIGHT
 config ZMK_SPLIT
     default y
 
-config ZMK_ 
-
 endif
