@@ -6,10 +6,10 @@
         zmk,matrix-transform = &default_transform;
     };
 
-mock_kscan: kscan_0 {
-                compatible = "zmk,kscan-mock";
-                colums = <0>;
-                rows = <0>;
-                events = <0>;
-            };
-}
+    mock_kscan: kscan_0 {
+            compatible = "zmk,kscan-mock";
+            colums = <0>;
+            rows = <0>;
+            events = <0>;
+        };
+};
