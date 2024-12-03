@@ -11,5 +11,5 @@ mock_kscan: kscan_0 {
                 colums = <0>;
                 rows = <0>;
                 events = <0>;
-            }
+            };
 }
