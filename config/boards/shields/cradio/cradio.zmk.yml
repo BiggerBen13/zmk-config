@@ -8,6 +8,6 @@ features:
     - keys
 siblings:
     - cradio_host_left
-    - cradio_left
-    - cradio_right
+    - cradio_perpheral_left
+    - cradio_peripheral_right
     - cradio_dongle
