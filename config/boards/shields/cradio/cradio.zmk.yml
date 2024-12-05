@@ -7,6 +7,7 @@ requires: [pro_micro]
 features:
     - keys
 siblings:
-    - corne_left
-    - corne_right
-    - corne_dongle
+    - cradio_host_left
+    - cradio_left
+    - cradio_right
+    - cradio_dongle
